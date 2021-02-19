@@ -6,9 +6,6 @@ public class TableOpen8to16 implements HashtableOpen8to16 {
 
     @Override
     public void insert(int key, Object value) {
-//        if (key == 0) {
-//            System.out.println("debug");
-//        }
         if (hasNumber(key)) {
             return;
         }
